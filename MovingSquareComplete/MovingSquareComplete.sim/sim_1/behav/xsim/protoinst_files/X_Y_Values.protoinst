@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"X_Y_Values": {
+			"proto_instances": {
+			}
+		}
+	}
+}

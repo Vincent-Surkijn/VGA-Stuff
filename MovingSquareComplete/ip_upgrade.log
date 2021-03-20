@@ -1,0 +1,321 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Apr 24 16:11:45 2020
+| Host         : LAPTOP-4D2HJSO8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MovingSquare_VGA_Square_Logic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of MovingSquare_VGA_Square_Logic_0_0 (xilinx.com:user:VGA_Square_Logic:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Apr 24 14:58:39 2020
+| Host         : LAPTOP-4D2HJSO8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MovingSquare_X_Y_Values_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of MovingSquare_X_Y_Values_0_0 (xilinx.com:user:X_Y_Values:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'MovingSquare_X_Y_Values_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'CE'
+
+-Upgrade has added port 'Increment_XandY'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Apr 24 14:03:46 2020
+| Host         : LAPTOP-4D2HJSO8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MovingSquare_VGA_Square_Logic_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of MovingSquare_VGA_Square_Logic_0_0 (xilinx.com:user:VGA_Square_Logic:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'MovingSquare_VGA_Square_Logic_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'PXL_CLK'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Apr 24 11:31:41 2020
+| Host         : LAPTOP-4D2HJSO8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MovingSquare_VGA_Square_Logic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of MovingSquare_VGA_Square_Logic_0_0 (xilinx.com:user:VGA_Square_Logic:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Apr 24 11:29:22 2020
+| Host         : LAPTOP-4D2HJSO8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MovingSquare_VGA_Square_Logic_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of MovingSquare_VGA_Square_Logic_0_0 (xilinx.com:user:VGA_Square_Logic:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'MovingSquare_VGA_Square_Logic_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'X_EQ_1'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Apr 24 11:17:53 2020
+| Host         : LAPTOP-4D2HJSO8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MovingSquare_Comps_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of MovingSquare_Comps_0_0 (xilinx.com:user:Comps:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'MovingSquare_Comps_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'X_EQ_1'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Apr 23 20:46:51 2020
+| Host         : LAPTOP-4D2HJSO8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MovingSquare_VGA_Square_Logic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of MovingSquare_VGA_Square_Logic_0_0 (xilinx.com:user:VGA_Square_Logic:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Apr 23 20:03:12 2020
+| Host         : LAPTOP-4D2HJSO8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MovingSquare_Comps_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of MovingSquare_Comps_0_0 (xilinx.com:user:Comps:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'MovingSquare_Comps_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'X_EQ_1'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Apr 23 17:45:30 2020
+| Host         : LAPTOP-4D2HJSO8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MovingSquare_Comps_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of MovingSquare_Comps_0_0 (xilinx.com:user:Comps:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'MovingSquare_Comps_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'X_EQ_SW'
+
+-Upgrade has removed port 'Y_EQ_SH'
+
+-Upgrade has added port 'endX_EQ_SW'
+
+-Upgrade has added port 'endY_EQ_SH'
+
+-Upgrade has added port 'startX_EQ_0'
+
+-Upgrade has added port 'startY_EQ_0'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Apr 23 17:23:33 2020
+| Host         : LAPTOP-4D2HJSO8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MovingSquare_X_Y_Values_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of MovingSquare_X_Y_Values_0_0 (xilinx.com:user:X_Y_Values:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'MovingSquare_X_Y_Values_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'SquareHeightPlus1'
+
+-Upgrade has removed port 'SquareWidthPlus1'
+
+-Upgrade has added port 'SquareHeightMin1'
+
+-Upgrade has added port 'SquareWidthMin1'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Apr 23 17:06:42 2020
+| Host         : LAPTOP-4D2HJSO8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MovingSquare_X_Y_Values_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of MovingSquare_X_Y_Values_0_0 (xilinx.com:user:X_Y_Values:1.0 (Rev. 2)) to Vivado generation flows.
+

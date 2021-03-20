@@ -1,0 +1,360 @@
+
+*** Running vivado
+    with args -log MovingSquare_Comps_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MovingSquare_Comps_0_0.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source MovingSquare_Comps_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/ProgramData/Xilinx/my_ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/ProgramData/Xilinx/IP_DS'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.cache/ip 
+Command: synth_design -top MovingSquare_Comps_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11064 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 848.441 ; gain = 234.313
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MovingSquare_Comps_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/synth/MovingSquare_Comps_0_0.vhd:79]
+INFO: [Synth 8-3491] module 'Comps' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:14' bound to instance 'U0' of component 'Comps' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/synth/MovingSquare_Comps_0_0.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'Comps' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:41]
+INFO: [Synth 8-3491] module 'Comps_X_GT_endX_1' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_GT_endX_1/synth/Comps_X_GT_endX_1.vhd:56' bound to instance 'x_eq_0_RnM' of component 'Comps_X_GT_endX_1' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:195]
+INFO: [Synth 8-638] synthesizing module 'Comps_X_GT_endX_1' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_GT_endX_1/synth/Comps_X_GT_endX_1.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_GT_endX_1/synth/Comps_X_GT_endX_1.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/3bbb/COMP.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'COMP' (1#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/3bbb/COMP.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Comps_X_GT_endX_1' (2#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_GT_endX_1/synth/Comps_X_GT_endX_1.vhd:66]
+INFO: [Synth 8-3491] module 'Comps_DS_COMP_16B_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_DS_COMP_16B_0_0/synth/Comps_DS_COMP_16B_0_0.vhd:56' bound to instance 'x_gt_endx_RnM' of component 'Comps_DS_COMP_16B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'Comps_DS_COMP_16B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_DS_COMP_16B_0_0/synth/Comps_DS_COMP_16B_0_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_DS_COMP_16B_0_0/synth/Comps_DS_COMP_16B_0_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'Comps_DS_COMP_16B_0_0' (3#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_DS_COMP_16B_0_0/synth/Comps_DS_COMP_16B_0_0.vhd:66]
+INFO: [Synth 8-3491] module 'Comps_X_GT_endX_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_GT_endX_0/synth/Comps_X_GT_endX_0.vhd:56' bound to instance 'x_lt_startx_RnM' of component 'Comps_X_GT_endX_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:211]
+INFO: [Synth 8-638] synthesizing module 'Comps_X_GT_endX_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_GT_endX_0/synth/Comps_X_GT_endX_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_GT_endX_0/synth/Comps_X_GT_endX_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'Comps_X_GT_endX_0' (4#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_GT_endX_0/synth/Comps_X_GT_endX_0.vhd:66]
+INFO: [Synth 8-3491] module 'Comps_X_EQ_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_EQ_0_0/synth/Comps_X_EQ_0_0.vhd:56' bound to instance 'y_eq_0_RnM' of component 'Comps_X_EQ_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'Comps_X_EQ_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_EQ_0_0/synth/Comps_X_EQ_0_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_EQ_0_0/synth/Comps_X_EQ_0_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'Comps_X_EQ_0_0' (5#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_EQ_0_0/synth/Comps_X_EQ_0_0.vhd:66]
+INFO: [Synth 8-3491] module 'Comps_Y_LT_startY_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_Y_LT_startY_0/synth/Comps_Y_LT_startY_0.vhd:56' bound to instance 'y_gt_endy_RnM' of component 'Comps_Y_LT_startY_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:227]
+INFO: [Synth 8-638] synthesizing module 'Comps_Y_LT_startY_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_Y_LT_startY_0/synth/Comps_Y_LT_startY_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_Y_LT_startY_0/synth/Comps_Y_LT_startY_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'Comps_Y_LT_startY_0' (6#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_Y_LT_startY_0/synth/Comps_Y_LT_startY_0.vhd:66]
+INFO: [Synth 8-3491] module 'Comps_X_LT_startX_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_LT_startX_0/synth/Comps_X_LT_startX_0.vhd:56' bound to instance 'y_lt_starty_RnM' of component 'Comps_X_LT_startX_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:235]
+INFO: [Synth 8-638] synthesizing module 'Comps_X_LT_startX_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_LT_startX_0/synth/Comps_X_LT_startX_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_LT_startX_0/synth/Comps_X_LT_startX_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'Comps_X_LT_startX_0' (7#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_LT_startX_0/synth/Comps_X_LT_startX_0.vhd:66]
+INFO: [Synth 8-3491] module 'Comps_xlconstant_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_xlconstant_0_0/synth/Comps_xlconstant_0_0.v:57' bound to instance 'constant_0' of component 'Comps_xlconstant_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:243]
+INFO: [Synth 8-6157] synthesizing module 'Comps_xlconstant_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_xlconstant_0_0/synth/Comps_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/34f7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 0 - type: integer 
+	Parameter CONST_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant' (8#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/34f7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Comps_xlconstant_0_0' (9#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_xlconstant_0_0/synth/Comps_xlconstant_0_0.v:57]
+INFO: [Synth 8-3491] module 'Comps_X_LT_startX_1' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_LT_startX_1/synth/Comps_X_LT_startX_1.vhd:56' bound to instance 'endx_eq_sw_RnM' of component 'Comps_X_LT_startX_1' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'Comps_X_LT_startX_1' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_LT_startX_1/synth/Comps_X_LT_startX_1.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_LT_startX_1/synth/Comps_X_LT_startX_1.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'Comps_X_LT_startX_1' (10#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_LT_startX_1/synth/Comps_X_LT_startX_1.vhd:66]
+INFO: [Synth 8-3491] module 'Comps_Y_GT_endY_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_Y_GT_endY_0/synth/Comps_Y_GT_endY_0.vhd:56' bound to instance 'endy_eq_sh_RnM' of component 'Comps_Y_GT_endY_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:255]
+INFO: [Synth 8-638] synthesizing module 'Comps_Y_GT_endY_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_Y_GT_endY_0/synth/Comps_Y_GT_endY_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_Y_GT_endY_0/synth/Comps_Y_GT_endY_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'Comps_Y_GT_endY_0' (11#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_Y_GT_endY_0/synth/Comps_Y_GT_endY_0.vhd:66]
+INFO: [Synth 8-3491] module 'Comps_X_EQ_0_1' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_EQ_0_1/synth/Comps_X_EQ_0_1.vhd:56' bound to instance 'startx_eq_0_RnM' of component 'Comps_X_EQ_0_1' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:263]
+INFO: [Synth 8-638] synthesizing module 'Comps_X_EQ_0_1' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_EQ_0_1/synth/Comps_X_EQ_0_1.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_EQ_0_1/synth/Comps_X_EQ_0_1.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'Comps_X_EQ_0_1' (12#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_X_EQ_0_1/synth/Comps_X_EQ_0_1.vhd:66]
+INFO: [Synth 8-3491] module 'Comps_endY_EQ_SH_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_endY_EQ_SH_0/synth/Comps_endY_EQ_SH_0.vhd:56' bound to instance 'starty_eq_0_RnM' of component 'Comps_endY_EQ_SH_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:271]
+INFO: [Synth 8-638] synthesizing module 'Comps_endY_EQ_SH_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_endY_EQ_SH_0/synth/Comps_endY_EQ_SH_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_endY_EQ_SH_0/synth/Comps_endY_EQ_SH_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'Comps_endY_EQ_SH_0' (13#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_endY_EQ_SH_0/synth/Comps_endY_EQ_SH_0.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'Comps' (14#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/508e/src/Comps.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MovingSquare_Comps_0_0' (15#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/synth/MovingSquare_Comps_0_0.vhd:79]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 922.063 ; gain = 307.934
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 922.063 ; gain = 307.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 922.063 ; gain = 307.934
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 922.063 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_Comps_0_0/src/Comps_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.runs/MovingSquare_Comps_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.runs/MovingSquare_Comps_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 987.578 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.186 . Memory (MB): peak = 990.395 ; gain = 2.816
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 990.395 ; gain = 376.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 990.395 ; gain = 376.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.runs/MovingSquare_Comps_0_0_synth_1/dont_touch.xdc, line 42).
+Applied set_property DONT_TOUCH = true for U0/starty_eq_0_RnM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/startx_eq_0_RnM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/y_eq_0_RnM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/constant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/x_eq_0_RnM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/endy_eq_sh_RnM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/endx_eq_sw_RnM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/y_gt_endy_RnM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/y_lt_starty_RnM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/x_lt_startx_RnM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/x_gt_endx_RnM. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 990.395 ; gain = 376.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 990.395 ; gain = 376.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 990.395 ; gain = 376.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 993.184 ; gain = 379.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 993.258 ; gain = 379.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1002.863 ; gain = 388.734
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1017.668 ; gain = 403.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1017.668 ; gain = 403.539
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1017.668 ; gain = 403.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1017.668 ; gain = 403.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1017.668 ; gain = 403.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1017.668 ; gain = 403.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    40|
+|2     |LUT2   |    20|
+|3     |LUT4   |   320|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------+----------------------+------+
+|      |Instance            |Module                |Cells |
++------+--------------------+----------------------+------+
+|1     |top                 |                      |   380|
+|2     |  U0                |Comps                 |   380|
+|3     |    x_eq_0_RnM      |Comps_X_GT_endX_1     |    38|
+|4     |      U0            |COMP_8                |    38|
+|5     |    x_gt_endx_RnM   |Comps_DS_COMP_16B_0_0 |    38|
+|6     |      U0            |COMP_7                |    38|
+|7     |    x_lt_startx_RnM |Comps_X_GT_endX_0     |    38|
+|8     |      U0            |COMP_6                |    38|
+|9     |    y_eq_0_RnM      |Comps_X_EQ_0_0        |    38|
+|10    |      U0            |COMP_5                |    38|
+|11    |    y_gt_endy_RnM   |Comps_Y_LT_startY_0   |    38|
+|12    |      U0            |COMP_4                |    38|
+|13    |    y_lt_starty_RnM |Comps_X_LT_startX_0   |    38|
+|14    |      U0            |COMP_3                |    38|
+|15    |    constant_0      |Comps_xlconstant_0_0  |     0|
+|16    |    endx_eq_sw_RnM  |Comps_X_LT_startX_1   |    38|
+|17    |      U0            |COMP_2                |    38|
+|18    |    endy_eq_sh_RnM  |Comps_Y_GT_endY_0     |    38|
+|19    |      U0            |COMP_1                |    38|
+|20    |    startx_eq_0_RnM |Comps_X_EQ_0_1        |    38|
+|21    |      U0            |COMP_0                |    38|
+|22    |    starty_eq_0_RnM |Comps_endY_EQ_SH_0    |    38|
+|23    |      U0            |COMP                  |    38|
++------+--------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1017.668 ; gain = 403.539
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:34 . Memory (MB): peak = 1017.668 ; gain = 335.207
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1017.668 ; gain = 403.539
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1017.668 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1031.066 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+67 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:51 . Memory (MB): peak = 1031.066 ; gain = 720.145
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1031.066 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.runs/MovingSquare_Comps_0_0_synth_1/MovingSquare_Comps_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP MovingSquare_Comps_0_0, cache-ID = 2f18b56a6054989e
+INFO: [Coretcl 2-1174] Renamed 22 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1031.066 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.runs/MovingSquare_Comps_0_0_synth_1/MovingSquare_Comps_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MovingSquare_Comps_0_0_utilization_synth.rpt -pb MovingSquare_Comps_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 24 11:34:30 2020...

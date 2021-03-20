@@ -1,0 +1,883 @@
+
+*** Running vivado
+    with args -log MovingSquare_VGA_Controller_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MovingSquare_VGA_Controller_0_0.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source MovingSquare_VGA_Controller_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/ProgramData/Xilinx/my_ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/ProgramData/Xilinx/IP_DS'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.cache/ip 
+Command: synth_design -top MovingSquare_VGA_Controller_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11536 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 853.320 ; gain = 234.691
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MovingSquare_VGA_Controller_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/synth/MovingSquare_VGA_Controller_0_0.vhd:77]
+INFO: [Synth 8-3491] module 'VGA_Controller' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/915d/src/VGA_Controller.vhd:14' bound to instance 'U0' of component 'VGA_Controller' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/synth/MovingSquare_VGA_Controller_0_0.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/915d/src/VGA_Controller.vhd:39]
+INFO: [Synth 8-3491] module 'VGA_Controller_Adders_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/synth/VGA_Controller_Adders_0_0.vhd:56' bound to instance 'Adders_0' of component 'VGA_Controller_Adders_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/915d/src/VGA_Controller.vhd:212]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller_Adders_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/synth/VGA_Controller_Adders_0_0.vhd:77]
+INFO: [Synth 8-3491] module 'Adders' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/0a4e/src/Adders.vhd:14' bound to instance 'U0' of component 'Adders' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/synth/VGA_Controller_Adders_0_0.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'Adders' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/0a4e/src/Adders.vhd:39]
+INFO: [Synth 8-3491] module 'Adders_TotalHor_2' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_TotalHor_2/synth/Adders_TotalHor_2.vhd:59' bound to instance 'SHplusVerFP' of component 'Adders_TotalHor_2' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/0a4e/src/Adders.vhd:187]
+INFO: [Synth 8-638] synthesizing module 'Adders_TotalHor_2' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_TotalHor_2/synth/Adders_TotalHor_2.vhd:69]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 16 - type: integer 
+	Parameter C_B_WIDTH bound to: 16 - type: integer 
+	Parameter C_OUT_WIDTH bound to: 16 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_A_TYPE bound to: 0 - type: integer 
+	Parameter C_B_TYPE bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_ADD_MODE bound to: 0 - type: integer 
+	Parameter C_B_CONSTANT bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 0000000000000000 - type: string 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_CE_OVERRIDES_BYPASS bound to: 1 - type: integer 
+	Parameter C_BYPASS_LOW bound to: 0 - type: integer 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_C_IN bound to: 0 - type: integer 
+	Parameter C_HAS_C_OUT bound to: 0 - type: integer 
+	Parameter C_BORROW_LOW bound to: 1 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_BYPASS bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_14' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/ebb8/hdl/c_addsub_v12_0_vh_rfs.vhd:7026' bound to instance 'U0' of component 'c_addsub_v12_0_14' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_TotalHor_2/synth/Adders_TotalHor_2.vhd:137]
+INFO: [Synth 8-256] done synthesizing module 'Adders_TotalHor_2' (7#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_TotalHor_2/synth/Adders_TotalHor_2.vhd:69]
+INFO: [Synth 8-3491] module 'Adders_SHplusVerFP_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SHplusVerFP_0/synth/Adders_SHplusVerFP_0.vhd:59' bound to instance 'SHplusVerFPplusVSync' of component 'Adders_SHplusVerFP_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/0a4e/src/Adders.vhd:195]
+INFO: [Synth 8-638] synthesizing module 'Adders_SHplusVerFP_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SHplusVerFP_0/synth/Adders_SHplusVerFP_0.vhd:69]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 16 - type: integer 
+	Parameter C_B_WIDTH bound to: 16 - type: integer 
+	Parameter C_OUT_WIDTH bound to: 16 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_A_TYPE bound to: 0 - type: integer 
+	Parameter C_B_TYPE bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_ADD_MODE bound to: 0 - type: integer 
+	Parameter C_B_CONSTANT bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 0000000000000000 - type: string 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_CE_OVERRIDES_BYPASS bound to: 1 - type: integer 
+	Parameter C_BYPASS_LOW bound to: 0 - type: integer 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_C_IN bound to: 0 - type: integer 
+	Parameter C_HAS_C_OUT bound to: 0 - type: integer 
+	Parameter C_BORROW_LOW bound to: 1 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_BYPASS bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_14' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/ebb8/hdl/c_addsub_v12_0_vh_rfs.vhd:7026' bound to instance 'U0' of component 'c_addsub_v12_0_14' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SHplusVerFP_0/synth/Adders_SHplusVerFP_0.vhd:138]
+INFO: [Synth 8-256] done synthesizing module 'Adders_SHplusVerFP_0' (8#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SHplusVerFP_0/synth/Adders_SHplusVerFP_0.vhd:69]
+INFO: [Synth 8-3491] module 'Adders_c_addsub_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_c_addsub_0_0/synth/Adders_c_addsub_0_0.vhd:59' bound to instance 'SWplusHorFP' of component 'Adders_c_addsub_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/0a4e/src/Adders.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'Adders_c_addsub_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_c_addsub_0_0/synth/Adders_c_addsub_0_0.vhd:69]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 16 - type: integer 
+	Parameter C_B_WIDTH bound to: 16 - type: integer 
+	Parameter C_OUT_WIDTH bound to: 16 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_A_TYPE bound to: 0 - type: integer 
+	Parameter C_B_TYPE bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_ADD_MODE bound to: 0 - type: integer 
+	Parameter C_B_CONSTANT bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 0000000000000000 - type: string 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_CE_OVERRIDES_BYPASS bound to: 1 - type: integer 
+	Parameter C_BYPASS_LOW bound to: 0 - type: integer 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_C_IN bound to: 0 - type: integer 
+	Parameter C_HAS_C_OUT bound to: 0 - type: integer 
+	Parameter C_BORROW_LOW bound to: 1 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_BYPASS bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_14' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/ebb8/hdl/c_addsub_v12_0_vh_rfs.vhd:7026' bound to instance 'U0' of component 'c_addsub_v12_0_14' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_c_addsub_0_0/synth/Adders_c_addsub_0_0.vhd:137]
+INFO: [Synth 8-256] done synthesizing module 'Adders_c_addsub_0_0' (9#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_c_addsub_0_0/synth/Adders_c_addsub_0_0.vhd:69]
+INFO: [Synth 8-3491] module 'Adders_SWplusHorFP_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SWplusHorFP_0/synth/Adders_SWplusHorFP_0.vhd:59' bound to instance 'SWplusHorFPplusHSync' of component 'Adders_SWplusHorFP_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/0a4e/src/Adders.vhd:211]
+INFO: [Synth 8-638] synthesizing module 'Adders_SWplusHorFP_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SWplusHorFP_0/synth/Adders_SWplusHorFP_0.vhd:69]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 16 - type: integer 
+	Parameter C_B_WIDTH bound to: 16 - type: integer 
+	Parameter C_OUT_WIDTH bound to: 16 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_A_TYPE bound to: 0 - type: integer 
+	Parameter C_B_TYPE bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_ADD_MODE bound to: 0 - type: integer 
+	Parameter C_B_CONSTANT bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 0000000000000000 - type: string 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_CE_OVERRIDES_BYPASS bound to: 1 - type: integer 
+	Parameter C_BYPASS_LOW bound to: 0 - type: integer 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_C_IN bound to: 0 - type: integer 
+	Parameter C_HAS_C_OUT bound to: 0 - type: integer 
+	Parameter C_BORROW_LOW bound to: 1 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_BYPASS bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_14' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/ebb8/hdl/c_addsub_v12_0_vh_rfs.vhd:7026' bound to instance 'U0' of component 'c_addsub_v12_0_14' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SWplusHorFP_0/synth/Adders_SWplusHorFP_0.vhd:138]
+INFO: [Synth 8-256] done synthesizing module 'Adders_SWplusHorFP_0' (10#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SWplusHorFP_0/synth/Adders_SWplusHorFP_0.vhd:69]
+INFO: [Synth 8-3491] module 'Adders_SWplusHorFPplusHSync_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SWplusHorFPplusHSync_0/synth/Adders_SWplusHorFPplusHSync_0.vhd:59' bound to instance 'TotalHor' of component 'Adders_SWplusHorFPplusHSync_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/0a4e/src/Adders.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'Adders_SWplusHorFPplusHSync_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SWplusHorFPplusHSync_0/synth/Adders_SWplusHorFPplusHSync_0.vhd:69]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 16 - type: integer 
+	Parameter C_B_WIDTH bound to: 16 - type: integer 
+	Parameter C_OUT_WIDTH bound to: 16 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_A_TYPE bound to: 0 - type: integer 
+	Parameter C_B_TYPE bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_ADD_MODE bound to: 0 - type: integer 
+	Parameter C_B_CONSTANT bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 0000000000000000 - type: string 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_CE_OVERRIDES_BYPASS bound to: 1 - type: integer 
+	Parameter C_BYPASS_LOW bound to: 0 - type: integer 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_C_IN bound to: 0 - type: integer 
+	Parameter C_HAS_C_OUT bound to: 0 - type: integer 
+	Parameter C_BORROW_LOW bound to: 1 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_BYPASS bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_14' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/ebb8/hdl/c_addsub_v12_0_vh_rfs.vhd:7026' bound to instance 'U0' of component 'c_addsub_v12_0_14' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SWplusHorFPplusHSync_0/synth/Adders_SWplusHorFPplusHSync_0.vhd:138]
+INFO: [Synth 8-256] done synthesizing module 'Adders_SWplusHorFPplusHSync_0' (11#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SWplusHorFPplusHSync_0/synth/Adders_SWplusHorFPplusHSync_0.vhd:69]
+INFO: [Synth 8-3491] module 'Adders_TotalHor_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_TotalHor_0/synth/Adders_TotalHor_0.vhd:59' bound to instance 'TotalHorMin1' of component 'Adders_TotalHor_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/0a4e/src/Adders.vhd:227]
+INFO: [Synth 8-638] synthesizing module 'Adders_TotalHor_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_TotalHor_0/synth/Adders_TotalHor_0.vhd:69]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 16 - type: integer 
+	Parameter C_B_WIDTH bound to: 16 - type: integer 
+	Parameter C_OUT_WIDTH bound to: 16 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_A_TYPE bound to: 0 - type: integer 
+	Parameter C_B_TYPE bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_ADD_MODE bound to: 1 - type: integer 
+	Parameter C_B_CONSTANT bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 0000000000000000 - type: string 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_CE_OVERRIDES_BYPASS bound to: 1 - type: integer 
+	Parameter C_BYPASS_LOW bound to: 0 - type: integer 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_C_IN bound to: 0 - type: integer 
+	Parameter C_HAS_C_OUT bound to: 0 - type: integer 
+	Parameter C_BORROW_LOW bound to: 1 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_BYPASS bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_14' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/ebb8/hdl/c_addsub_v12_0_vh_rfs.vhd:7026' bound to instance 'U0' of component 'c_addsub_v12_0_14' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_TotalHor_0/synth/Adders_TotalHor_0.vhd:138]
+INFO: [Synth 8-256] done synthesizing module 'Adders_TotalHor_0' (12#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_TotalHor_0/synth/Adders_TotalHor_0.vhd:69]
+INFO: [Synth 8-3491] module 'Adders_SHplusVerFPplusVSync_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SHplusVerFPplusVSync_0/synth/Adders_SHplusVerFPplusVSync_0.vhd:59' bound to instance 'TotalVer' of component 'Adders_SHplusVerFPplusVSync_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/0a4e/src/Adders.vhd:235]
+INFO: [Synth 8-638] synthesizing module 'Adders_SHplusVerFPplusVSync_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SHplusVerFPplusVSync_0/synth/Adders_SHplusVerFPplusVSync_0.vhd:69]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 16 - type: integer 
+	Parameter C_B_WIDTH bound to: 16 - type: integer 
+	Parameter C_OUT_WIDTH bound to: 16 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_A_TYPE bound to: 0 - type: integer 
+	Parameter C_B_TYPE bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_ADD_MODE bound to: 0 - type: integer 
+	Parameter C_B_CONSTANT bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 0000000000000000 - type: string 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_CE_OVERRIDES_BYPASS bound to: 1 - type: integer 
+	Parameter C_BYPASS_LOW bound to: 0 - type: integer 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_C_IN bound to: 0 - type: integer 
+	Parameter C_HAS_C_OUT bound to: 0 - type: integer 
+	Parameter C_BORROW_LOW bound to: 1 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_BYPASS bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_14' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/ebb8/hdl/c_addsub_v12_0_vh_rfs.vhd:7026' bound to instance 'U0' of component 'c_addsub_v12_0_14' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SHplusVerFPplusVSync_0/synth/Adders_SHplusVerFPplusVSync_0.vhd:138]
+INFO: [Synth 8-256] done synthesizing module 'Adders_SHplusVerFPplusVSync_0' (13#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_SHplusVerFPplusVSync_0/synth/Adders_SHplusVerFPplusVSync_0.vhd:69]
+INFO: [Synth 8-3491] module 'Adders_TotalVer_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_TotalVer_0/synth/Adders_TotalVer_0.vhd:59' bound to instance 'TotalVerMin1' of component 'Adders_TotalVer_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/0a4e/src/Adders.vhd:243]
+INFO: [Synth 8-638] synthesizing module 'Adders_TotalVer_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_TotalVer_0/synth/Adders_TotalVer_0.vhd:69]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 16 - type: integer 
+	Parameter C_B_WIDTH bound to: 16 - type: integer 
+	Parameter C_OUT_WIDTH bound to: 16 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_A_TYPE bound to: 0 - type: integer 
+	Parameter C_B_TYPE bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_ADD_MODE bound to: 1 - type: integer 
+	Parameter C_B_CONSTANT bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 0000000000000000 - type: string 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_CE_OVERRIDES_BYPASS bound to: 1 - type: integer 
+	Parameter C_BYPASS_LOW bound to: 0 - type: integer 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_C_IN bound to: 0 - type: integer 
+	Parameter C_HAS_C_OUT bound to: 0 - type: integer 
+	Parameter C_BORROW_LOW bound to: 1 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_BYPASS bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_14' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/ebb8/hdl/c_addsub_v12_0_vh_rfs.vhd:7026' bound to instance 'U0' of component 'c_addsub_v12_0_14' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_TotalVer_0/synth/Adders_TotalVer_0.vhd:138]
+INFO: [Synth 8-256] done synthesizing module 'Adders_TotalVer_0' (14#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_TotalVer_0/synth/Adders_TotalVer_0.vhd:69]
+INFO: [Synth 8-3491] module 'Adders_xlconstant_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_xlconstant_0_0/synth/Adders_xlconstant_0_0.v:57' bound to instance 'constant_1' of component 'Adders_xlconstant_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/0a4e/src/Adders.vhd:251]
+INFO: [Synth 8-6157] synthesizing module 'Adders_xlconstant_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_xlconstant_0_0/synth/Adders_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/ipshared/34f7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant' (15#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/ipshared/34f7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Adders_xlconstant_0_0' (16#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/src/Adders_xlconstant_0_0/synth/Adders_xlconstant_0_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'Adders' (17#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/0a4e/src/Adders.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller_Adders_0_0' (18#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_Adders_0_0/synth/VGA_Controller_Adders_0_0.vhd:77]
+INFO: [Synth 8-3491] module 'VGA_Controller_DS_AND_2B_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_DS_AND_2B_0_0/synth/VGA_Controller_DS_AND_2B_0_0.vhd:56' bound to instance 'CLR_Line_CNT' of component 'VGA_Controller_DS_AND_2B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/915d/src/VGA_Controller.vhd:231]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller_DS_AND_2B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_DS_AND_2B_0_0/synth/VGA_Controller_DS_AND_2B_0_0.vhd:64]
+INFO: [Synth 8-3491] module 'DS_AND_2B' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/49a8/sources_1/new/DS_AND_2B.vhd:29' bound to instance 'U0' of component 'DS_AND_2B' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_DS_AND_2B_0_0/synth/VGA_Controller_DS_AND_2B_0_0.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'DS_AND_2B' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/49a8/sources_1/new/DS_AND_2B.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'DS_AND_2B' (19#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/49a8/sources_1/new/DS_AND_2B.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller_DS_AND_2B_0_0' (20#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_DS_AND_2B_0_0/synth/VGA_Controller_DS_AND_2B_0_0.vhd:64]
+INFO: [Synth 8-3491] module 'VGA_Controller_DS_OR_2B_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_DS_OR_2B_0_0/synth/VGA_Controller_DS_OR_2B_0_0.vhd:56' bound to instance 'CLR_PXL_CNT' of component 'VGA_Controller_DS_OR_2B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/915d/src/VGA_Controller.vhd:237]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller_DS_OR_2B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_DS_OR_2B_0_0/synth/VGA_Controller_DS_OR_2B_0_0.vhd:64]
+INFO: [Synth 8-3491] module 'DS_OR_2B' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/e6ac/sources_1/new/DS_OR_2B.vhd:29' bound to instance 'U0' of component 'DS_OR_2B' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_DS_OR_2B_0_0/synth/VGA_Controller_DS_OR_2B_0_0.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'DS_OR_2B' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/e6ac/sources_1/new/DS_OR_2B.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'DS_OR_2B' (21#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/e6ac/sources_1/new/DS_OR_2B.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller_DS_OR_2B_0_0' (22#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_DS_OR_2B_0_0/synth/VGA_Controller_DS_OR_2B_0_0.vhd:64]
+INFO: [Synth 8-3491] module 'VGA_Controller_H_comps_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/synth/VGA_Controller_H_comps_0_0.vhd:56' bound to instance 'H_comps_0' of component 'VGA_Controller_H_comps_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/915d/src/VGA_Controller.vhd:243]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller_H_comps_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/synth/VGA_Controller_H_comps_0_0.vhd:70]
+INFO: [Synth 8-3491] module 'H_comps' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/b238/src/H_comps.vhd:14' bound to instance 'U0' of component 'H_comps' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/synth/VGA_Controller_H_comps_0_0.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'H_comps' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/b238/src/H_comps.vhd:32]
+INFO: [Synth 8-3491] module 'H_comps_DS_COMP_16B_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_DS_COMP_16B_0_0/synth/H_comps_DS_COMP_16B_0_0.vhd:56' bound to instance 'Width_EQ' of component 'H_comps_DS_COMP_16B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/b238/src/H_comps.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'H_comps_DS_COMP_16B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_DS_COMP_16B_0_0/synth/H_comps_DS_COMP_16B_0_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_DS_COMP_16B_0_0/synth/H_comps_DS_COMP_16B_0_0.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/ipshared/3bbb/COMP.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'COMP' (23#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/ipshared/3bbb/COMP.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'H_comps_DS_COMP_16B_0_0' (24#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_DS_COMP_16B_0_0/synth/H_comps_DS_COMP_16B_0_0.vhd:66]
+INFO: [Synth 8-3491] module 'H_comps_WidthEQ_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_WidthEQ_0/synth/H_comps_WidthEQ_0.vhd:56' bound to instance 'Width_FP_EQ' of component 'H_comps_WidthEQ_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/b238/src/H_comps.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'H_comps_WidthEQ_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_WidthEQ_0/synth/H_comps_WidthEQ_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_WidthEQ_0/synth/H_comps_WidthEQ_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'H_comps_WidthEQ_0' (25#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_WidthEQ_0/synth/H_comps_WidthEQ_0.vhd:66]
+INFO: [Synth 8-3491] module 'H_comps_Width_FPEQ1_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_Width_FPEQ1_0/synth/H_comps_Width_FPEQ1_0.vhd:56' bound to instance 'Width_FP_SyncEQ' of component 'H_comps_Width_FPEQ1_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/b238/src/H_comps.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'H_comps_Width_FPEQ1_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_Width_FPEQ1_0/synth/H_comps_Width_FPEQ1_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_Width_FPEQ1_0/synth/H_comps_Width_FPEQ1_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'H_comps_Width_FPEQ1_0' (26#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_Width_FPEQ1_0/synth/H_comps_Width_FPEQ1_0.vhd:66]
+INFO: [Synth 8-3491] module 'H_comps_Width_FP_SyncEQ2_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_Width_FP_SyncEQ2_0/synth/H_comps_Width_FP_SyncEQ2_0.vhd:56' bound to instance 'totalHorMin1_EQ' of component 'H_comps_Width_FP_SyncEQ2_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/b238/src/H_comps.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'H_comps_Width_FP_SyncEQ2_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_Width_FP_SyncEQ2_0/synth/H_comps_Width_FP_SyncEQ2_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_Width_FP_SyncEQ2_0/synth/H_comps_Width_FP_SyncEQ2_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'H_comps_Width_FP_SyncEQ2_0' (27#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/src/H_comps_Width_FP_SyncEQ2_0/synth/H_comps_Width_FP_SyncEQ2_0.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'H_comps' (28#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/b238/src/H_comps.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller_H_comps_0_0' (29#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_H_comps_0_0/synth/VGA_Controller_H_comps_0_0.vhd:70]
+INFO: [Synth 8-3491] module 'VGA_Controller_c_counter_binary_0_1' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_c_counter_binary_0_1/synth/VGA_Controller_c_counter_binary_0_1.vhd:59' bound to instance 'Line_Counter' of component 'VGA_Controller_c_counter_binary_0_1' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/915d/src/VGA_Controller.vhd:255]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller_c_counter_binary_0_1' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_c_counter_binary_0_1/synth/VGA_Controller_c_counter_binary_0_1.vhd:68]
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_WIDTH bound to: 16 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_SCLR bound to: 1 - type: integer 
+	Parameter C_RESTRICT_COUNT bound to: 0 - type: integer 
+	Parameter C_COUNT_TO bound to: 1 - type: string 
+	Parameter C_COUNT_BY bound to: 1 - type: string 
+	Parameter C_COUNT_MODE bound to: 0 - type: integer 
+	Parameter C_THRESH0_VALUE bound to: 1 - type: string 
+	Parameter C_CE_OVERRIDES_SYNC bound to: 0 - type: integer 
+	Parameter C_HAS_THRESH0 bound to: 0 - type: integer 
+	Parameter C_HAS_LOAD bound to: 0 - type: integer 
+	Parameter C_LOAD_LOW bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_FB_LATENCY bound to: 0 - type: integer 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_counter_binary_v12_0_14' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/1f12/hdl/c_counter_binary_v12_0_vh_rfs.vhd:2146' bound to instance 'U0' of component 'c_counter_binary_v12_0_14' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_c_counter_binary_0_1/synth/VGA_Controller_c_counter_binary_0_1.vhd:128]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller_c_counter_binary_0_1' (33#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_c_counter_binary_0_1/synth/VGA_Controller_c_counter_binary_0_1.vhd:68]
+INFO: [Synth 8-3491] module 'VGA_Controller_c_counter_binary_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_c_counter_binary_0_0/synth/VGA_Controller_c_counter_binary_0_0.vhd:59' bound to instance 'PXL_Counter' of component 'VGA_Controller_c_counter_binary_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/915d/src/VGA_Controller.vhd:262]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller_c_counter_binary_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_c_counter_binary_0_0/synth/VGA_Controller_c_counter_binary_0_0.vhd:68]
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_WIDTH bound to: 16 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_SCLR bound to: 1 - type: integer 
+	Parameter C_RESTRICT_COUNT bound to: 0 - type: integer 
+	Parameter C_COUNT_TO bound to: 1 - type: string 
+	Parameter C_COUNT_BY bound to: 1 - type: string 
+	Parameter C_COUNT_MODE bound to: 0 - type: integer 
+	Parameter C_THRESH0_VALUE bound to: 1 - type: string 
+	Parameter C_CE_OVERRIDES_SYNC bound to: 0 - type: integer 
+	Parameter C_HAS_THRESH0 bound to: 0 - type: integer 
+	Parameter C_HAS_LOAD bound to: 0 - type: integer 
+	Parameter C_LOAD_LOW bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_FB_LATENCY bound to: 0 - type: integer 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_counter_binary_v12_0_14' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/1f12/hdl/c_counter_binary_v12_0_vh_rfs.vhd:2146' bound to instance 'U0' of component 'c_counter_binary_v12_0_14' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_c_counter_binary_0_0/synth/VGA_Controller_c_counter_binary_0_0.vhd:128]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller_c_counter_binary_0_0' (34#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_c_counter_binary_0_0/synth/VGA_Controller_c_counter_binary_0_0.vhd:68]
+INFO: [Synth 8-3491] module 'VGA_Controller_VGA_Logic_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/synth/VGA_Controller_VGA_Logic_0_0.vhd:56' bound to instance 'VGA_Logic_0' of component 'VGA_Controller_VGA_Logic_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/915d/src/VGA_Controller.vhd:269]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller_VGA_Logic_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/synth/VGA_Controller_VGA_Logic_0_0.vhd:71]
+INFO: [Synth 8-3491] module 'VGA_Logic' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/cf48/src/VGA_Logic.vhd:14' bound to instance 'U0' of component 'VGA_Logic' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/synth/VGA_Controller_VGA_Logic_0_0.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'VGA_Logic' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/cf48/src/VGA_Logic.vhd:33]
+INFO: [Synth 8-3491] module 'VGA_Logic_DS_AND_2B_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_AND_2B_0_0/synth/VGA_Logic_DS_AND_2B_0_0.vhd:56' bound to instance 'DS_AND_2B_0' of component 'VGA_Logic_DS_AND_2B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/cf48/src/VGA_Logic.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'VGA_Logic_DS_AND_2B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_AND_2B_0_0/synth/VGA_Logic_DS_AND_2B_0_0.vhd:64]
+INFO: [Synth 8-3491] module 'DS_AND_2B' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/49a8/sources_1/new/DS_AND_2B.vhd:29' bound to instance 'U0' of component 'DS_AND_2B' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_AND_2B_0_0/synth/VGA_Logic_DS_AND_2B_0_0.vhd:81]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Logic_DS_AND_2B_0_0' (35#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_AND_2B_0_0/synth/VGA_Logic_DS_AND_2B_0_0.vhd:64]
+INFO: [Synth 8-3491] module 'VGA_Logic_DS_AND_2B_1_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_AND_2B_1_0/synth/VGA_Logic_DS_AND_2B_1_0.vhd:56' bound to instance 'DS_AND_2B_1' of component 'VGA_Logic_DS_AND_2B_1_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/cf48/src/VGA_Logic.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'VGA_Logic_DS_AND_2B_1_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_AND_2B_1_0/synth/VGA_Logic_DS_AND_2B_1_0.vhd:64]
+INFO: [Synth 8-3491] module 'DS_AND_2B' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/49a8/sources_1/new/DS_AND_2B.vhd:29' bound to instance 'U0' of component 'DS_AND_2B' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_AND_2B_1_0/synth/VGA_Logic_DS_AND_2B_1_0.vhd:81]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Logic_DS_AND_2B_1_0' (36#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_AND_2B_1_0/synth/VGA_Logic_DS_AND_2B_1_0.vhd:64]
+INFO: [Synth 8-3491] module 'VGA_Logic_DS_EXOR_2B_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_EXOR_2B_0_0/synth/VGA_Logic_DS_EXOR_2B_0_0.vhd:56' bound to instance 'DS_EXOR_2B_0' of component 'VGA_Logic_DS_EXOR_2B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/cf48/src/VGA_Logic.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'VGA_Logic_DS_EXOR_2B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_EXOR_2B_0_0/synth/VGA_Logic_DS_EXOR_2B_0_0.vhd:64]
+INFO: [Synth 8-3491] module 'DS_EXOR_2B' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/ipshared/8252/sources_1/new/DS_EXOR_2B.vhd:29' bound to instance 'U0' of component 'DS_EXOR_2B' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_EXOR_2B_0_0/synth/VGA_Logic_DS_EXOR_2B_0_0.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'DS_EXOR_2B' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/ipshared/8252/sources_1/new/DS_EXOR_2B.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'DS_EXOR_2B' (37#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/ipshared/8252/sources_1/new/DS_EXOR_2B.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Logic_DS_EXOR_2B_0_0' (38#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_EXOR_2B_0_0/synth/VGA_Logic_DS_EXOR_2B_0_0.vhd:64]
+INFO: [Synth 8-3491] module 'VGA_Logic_DS_EXOR_2B_0_1' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_EXOR_2B_0_1/synth/VGA_Logic_DS_EXOR_2B_0_1.vhd:56' bound to instance 'DS_EXOR_2B_1' of component 'VGA_Logic_DS_EXOR_2B_0_1' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/cf48/src/VGA_Logic.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'VGA_Logic_DS_EXOR_2B_0_1' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_EXOR_2B_0_1/synth/VGA_Logic_DS_EXOR_2B_0_1.vhd:64]
+INFO: [Synth 8-3491] module 'DS_EXOR_2B' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/ipshared/8252/sources_1/new/DS_EXOR_2B.vhd:29' bound to instance 'U0' of component 'DS_EXOR_2B' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_EXOR_2B_0_1/synth/VGA_Logic_DS_EXOR_2B_0_1.vhd:81]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Logic_DS_EXOR_2B_0_1' (39#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_EXOR_2B_0_1/synth/VGA_Logic_DS_EXOR_2B_0_1.vhd:64]
+INFO: [Synth 8-3491] module 'VGA_Logic_DS_NOT_0_1' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_NOT_0_1/synth/VGA_Logic_DS_NOT_0_1.vhd:56' bound to instance 'DS_NOT_0' of component 'VGA_Logic_DS_NOT_0_1' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/cf48/src/VGA_Logic.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'VGA_Logic_DS_NOT_0_1' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_NOT_0_1/synth/VGA_Logic_DS_NOT_0_1.vhd:63]
+INFO: [Synth 8-3491] module 'DS_NOT' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/ipshared/41fb/sources_1/new/DS_NOT.vhd:29' bound to instance 'U0' of component 'DS_NOT' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_NOT_0_1/synth/VGA_Logic_DS_NOT_0_1.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'DS_NOT' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/ipshared/41fb/sources_1/new/DS_NOT.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'DS_NOT' (40#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/ipshared/41fb/sources_1/new/DS_NOT.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Logic_DS_NOT_0_1' (41#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_NOT_0_1/synth/VGA_Logic_DS_NOT_0_1.vhd:63]
+INFO: [Synth 8-3491] module 'VGA_Logic_DS_NOT_0_2' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_NOT_0_2/synth/VGA_Logic_DS_NOT_0_2.vhd:56' bound to instance 'DS_NOT_1' of component 'VGA_Logic_DS_NOT_0_2' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/cf48/src/VGA_Logic.vhd:127]
+INFO: [Synth 8-638] synthesizing module 'VGA_Logic_DS_NOT_0_2' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_NOT_0_2/synth/VGA_Logic_DS_NOT_0_2.vhd:63]
+INFO: [Synth 8-3491] module 'DS_NOT' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/ipshared/41fb/sources_1/new/DS_NOT.vhd:29' bound to instance 'U0' of component 'DS_NOT' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_NOT_0_2/synth/VGA_Logic_DS_NOT_0_2.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Logic_DS_NOT_0_2' (42#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/src/VGA_Logic_DS_NOT_0_2/synth/VGA_Logic_DS_NOT_0_2.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Logic' (43#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/cf48/src/VGA_Logic.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller_VGA_Logic_0_0' (44#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_VGA_Logic_0_0/synth/VGA_Controller_VGA_Logic_0_0.vhd:71]
+INFO: [Synth 8-3491] module 'VGA_Controller_V_comps_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/synth/VGA_Controller_V_comps_0_0.vhd:56' bound to instance 'V_comps_0' of component 'VGA_Controller_V_comps_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/915d/src/VGA_Controller.vhd:282]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller_V_comps_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/synth/VGA_Controller_V_comps_0_0.vhd:70]
+INFO: [Synth 8-3491] module 'V_comps' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/c2ef/src/V_comps.vhd:14' bound to instance 'U0' of component 'V_comps' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/synth/VGA_Controller_V_comps_0_0.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'V_comps' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/c2ef/src/V_comps.vhd:32]
+INFO: [Synth 8-3491] module 'V_comps_DS_COMP_16B_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_DS_COMP_16B_0_0/synth/V_comps_DS_COMP_16B_0_0.vhd:56' bound to instance 'HightEQ' of component 'V_comps_DS_COMP_16B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/c2ef/src/V_comps.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'V_comps_DS_COMP_16B_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_DS_COMP_16B_0_0/synth/V_comps_DS_COMP_16B_0_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_DS_COMP_16B_0_0/synth/V_comps_DS_COMP_16B_0_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'V_comps_DS_COMP_16B_0_0' (45#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_DS_COMP_16B_0_0/synth/V_comps_DS_COMP_16B_0_0.vhd:66]
+INFO: [Synth 8-3491] module 'V_comps_HightEQ_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_HightEQ_0/synth/V_comps_HightEQ_0.vhd:56' bound to instance 'Hight_FPEQ' of component 'V_comps_HightEQ_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/c2ef/src/V_comps.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'V_comps_HightEQ_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_HightEQ_0/synth/V_comps_HightEQ_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_HightEQ_0/synth/V_comps_HightEQ_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'V_comps_HightEQ_0' (46#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_HightEQ_0/synth/V_comps_HightEQ_0.vhd:66]
+INFO: [Synth 8-3491] module 'V_comps_Hight_FPEQ1_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_Hight_FPEQ1_0/synth/V_comps_Hight_FPEQ1_0.vhd:56' bound to instance 'Hight_FP_SyncEQ' of component 'V_comps_Hight_FPEQ1_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/c2ef/src/V_comps.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'V_comps_Hight_FPEQ1_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_Hight_FPEQ1_0/synth/V_comps_Hight_FPEQ1_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_Hight_FPEQ1_0/synth/V_comps_Hight_FPEQ1_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'V_comps_Hight_FPEQ1_0' (47#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_Hight_FPEQ1_0/synth/V_comps_Hight_FPEQ1_0.vhd:66]
+INFO: [Synth 8-3491] module 'V_comps_Hight_FP_SyncEQ_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_Hight_FP_SyncEQ_0/synth/V_comps_Hight_FP_SyncEQ_0.vhd:56' bound to instance 'TotalVerMin1EQ' of component 'V_comps_Hight_FP_SyncEQ_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/c2ef/src/V_comps.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'V_comps_Hight_FP_SyncEQ_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_Hight_FP_SyncEQ_0/synth/V_comps_Hight_FP_SyncEQ_0.vhd:66]
+INFO: [Synth 8-3491] module 'COMP' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/ipshared/3bbb/COMP.vhd:34' bound to instance 'U0' of component 'COMP' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_Hight_FP_SyncEQ_0/synth/V_comps_Hight_FP_SyncEQ_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'V_comps_Hight_FP_SyncEQ_0' (48#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/src/V_comps_Hight_FP_SyncEQ_0/synth/V_comps_Hight_FP_SyncEQ_0.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'V_comps' (49#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/ipshared/c2ef/src/V_comps.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller_V_comps_0_0' (50#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_V_comps_0_0/synth/VGA_Controller_V_comps_0_0.vhd:70]
+INFO: [Synth 8-3491] module 'VGA_Controller_clk_wiz_0_0' declared at 'c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_clk_wiz_0_0/VGA_Controller_clk_wiz_0_0.v:70' bound to instance 'clk_wiz_0' of component 'VGA_Controller_clk_wiz_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/915d/src/VGA_Controller.vhd:294]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Controller_clk_wiz_0_0' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_clk_wiz_0_0/VGA_Controller_clk_wiz_0_0.v:70]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Controller_clk_wiz_0_0_clk_wiz' [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_clk_wiz_0_0/VGA_Controller_clk_wiz_0_0_clk_wiz.v:68]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [D:/Vivado/2019.2/scripts/rt/data/unisim_comp.v:32937]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (51#1) [D:/Vivado/2019.2/scripts/rt/data/unisim_comp.v:32937]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [D:/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39940]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 46.375000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 8.000000 - type: double 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 15.625000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 5 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: double 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (52#1) [D:/Vivado/2019.2/scripts/rt/data/unisim_comp.v:39940]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/Vivado/2019.2/scripts/rt/data/unisim_comp.v:1075]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (53#1) [D:/Vivado/2019.2/scripts/rt/data/unisim_comp.v:1075]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_Controller_clk_wiz_0_0_clk_wiz' (54#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_clk_wiz_0_0/VGA_Controller_clk_wiz_0_0_clk_wiz.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_Controller_clk_wiz_0_0' (55#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_clk_wiz_0_0/VGA_Controller_clk_wiz_0_0.v:70]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller' (56#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ipshared/915d/src/VGA_Controller.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'MovingSquare_VGA_Controller_0_0' (57#1) [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/synth/MovingSquare_VGA_Controller_0_0.vhd:77]
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_6_viv__parameterized2 has unconnected port AINIT
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_6_viv__parameterized2 has unconnected port ACLR
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_6_viv__parameterized2 has unconnected port ASET
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_6_viv__parameterized2 has unconnected port SINIT
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_6_viv__parameterized2 has unconnected port SSET
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[15]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[14]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[13]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[12]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[11]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[10]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[9]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[8]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[7]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[6]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[5]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[4]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[3]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[2]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[1]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port b[0]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port add
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port c_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port bypass
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port sset
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized3 has unconnected port sinit
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_legacy__parameterized3 has unconnected port c_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_legacy__parameterized3 has unconnected port b_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_legacy__parameterized3 has unconnected port a_signed
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_legacy__parameterized3 has unconnected port b_signed
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port up
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port load
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[15]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[14]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[13]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[12]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[11]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[10]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[9]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[8]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[7]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[6]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[5]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[4]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[3]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[2]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[1]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port l[0]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[15]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[14]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[13]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[12]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[11]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[10]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[9]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[8]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[7]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[6]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[5]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[4]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[3]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[2]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[1]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port iv[0]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port sset
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_legacy has unconnected port sinit
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_6_viv has unconnected port AINIT
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_6_viv has unconnected port ACLR
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_6_viv has unconnected port ASET
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_6_viv has unconnected port SINIT
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_6_viv has unconnected port SCLR
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_6_viv has unconnected port SSET
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized1 has unconnected port add
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized1 has unconnected port c_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized1 has unconnected port bypass
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized1 has unconnected port sclr
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized1 has unconnected port sset
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy__parameterized1 has unconnected port sinit
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_legacy__parameterized1 has unconnected port c_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_legacy__parameterized1 has unconnected port b_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_legacy__parameterized1 has unconnected port a_signed
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_legacy__parameterized1 has unconnected port b_signed
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_viv__parameterized1 has unconnected port C_IN
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy has unconnected port add
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy has unconnected port c_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy has unconnected port bypass
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy has unconnected port sclr
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy has unconnected port sset
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_lut6_legacy has unconnected port sinit
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_legacy has unconnected port c_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_legacy has unconnected port b_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_legacy has unconnected port a_signed
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_legacy has unconnected port b_signed
+WARNING: [Synth 8-3331] design c_addsub_v12_0_14_viv has unconnected port C_IN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 970.281 ; gain = 351.652
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 970.281 ; gain = 351.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 970.281 ; gain = 351.652
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 970.281 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 311 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_ooc.xdc] for cell 'U0'
+Parsing XDC File [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_clk_wiz_0_0/VGA_Controller_clk_wiz_0_0.xdc] for cell 'U0/clk_wiz_0/inst'
+WARNING: [Constraints 18-619] A clock with name 'CLK' already exists, overwriting the previous clock with the same name. [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_clk_wiz_0_0/VGA_Controller_clk_wiz_0_0.xdc:56]
+Finished Parsing XDC File [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_clk_wiz_0_0/VGA_Controller_clk_wiz_0_0.xdc] for cell 'U0/clk_wiz_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.srcs/sources_1/bd/MovingSquare/ip/MovingSquare_VGA_Controller_0_0/src/VGA_Controller_clk_wiz_0_0/VGA_Controller_clk_wiz_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MovingSquare_VGA_Controller_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/MovingSquare_VGA_Controller_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.runs/MovingSquare_VGA_Controller_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.runs/MovingSquare_VGA_Controller_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.runs/MovingSquare_VGA_Controller_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MovingSquare_VGA_Controller_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/MovingSquare_VGA_Controller_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1036.844 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 1036.848 ; gain = 0.004
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:32 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:32 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0/clk_wiz_0/inst. (constraint file  C:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.runs/MovingSquare_VGA_Controller_0_0_synth_1/dont_touch.xdc, line 106).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.runs/MovingSquare_VGA_Controller_0_0_synth_1/dont_touch.xdc, line 118).
+Applied set_property DONT_TOUCH = true for U0/CLR_Line_CNT. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/VGA_Logic_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/VGA_Logic_0/U0/DS_AND_2B_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/VGA_Logic_0/U0/DS_AND_2B_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/VGA_Logic_0/U0/DS_NOT_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/VGA_Logic_0/U0/DS_EXOR_2B_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/VGA_Logic_0/U0/DS_NOT_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/VGA_Logic_0/U0/DS_EXOR_2B_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/V_comps_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/V_comps_0/U0/TotalVerMin1EQ. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/V_comps_0/U0/Hight_FP_SyncEQ. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/V_comps_0/U0/Hight_FPEQ. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/V_comps_0/U0/HightEQ. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/Line_Counter. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/CLR_PXL_CNT. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/H_comps_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/H_comps_0/U0/totalHorMin1_EQ. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/H_comps_0/U0/Width_FP_SyncEQ. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/H_comps_0/U0/Width_FP_EQ. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/H_comps_0/U0/Width_EQ. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/PXL_Counter. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/Adders_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/Adders_0/U0/TotalVerMin1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/Adders_0/U0/TotalVer. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/Adders_0/U0/SHplusVerFPplusVSync. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/Adders_0/U0/SHplusVerFP. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/Adders_0/U0/constant_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/Adders_0/U0/TotalHorMin1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/Adders_0/U0/TotalHor. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/Adders_0/U0/SWplusHorFPplusHSync. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/Adders_0/U0/SWplusHorFP. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:32 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_viv has unconnected port SSET
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_viv has unconnected port SINIT
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_viv has unconnected port UP
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_viv has unconnected port LOAD
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_viv has unconnected port L[15]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_14_viv has unconnected port L[14]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'CLK'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:48 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:48 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     2|
+|2     |CARRY4     |    32|
+|3     |LUT1       |     4|
+|4     |LUT2       |   150|
+|5     |LUT4       |   256|
+|6     |MMCME2_ADV |     1|
+|7     |MUXCY      |   150|
+|8     |XORCY      |   160|
+|9     |FDRE       |   160|
+|10    |IBUF       |     1|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 1036.848 ; gain = 418.219
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:51 . Memory (MB): peak = 1036.848 ; gain = 351.652
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:00:56 . Memory (MB): peak = 1036.848 ; gain = 418.219
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1036.848 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 343 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1049.766 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 40 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 40 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+180 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:58 ; elapsed = 00:01:08 . Memory (MB): peak = 1049.766 ; gain = 739.027
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1049.766 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.runs/MovingSquare_VGA_Controller_0_0_synth_1/MovingSquare_VGA_Controller_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP MovingSquare_VGA_Controller_0_0, cache-ID = 9733f40dc7bf5f1c
+INFO: [Coretcl 2-1174] Renamed 108 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1049.766 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/ProgramData/Xilinx/Projects/MovingSquareComplete/MovingSquareComplete.runs/MovingSquare_VGA_Controller_0_0_synth_1/MovingSquare_VGA_Controller_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MovingSquare_VGA_Controller_0_0_utilization_synth.rpt -pb MovingSquare_VGA_Controller_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 23 16:20:39 2020...
