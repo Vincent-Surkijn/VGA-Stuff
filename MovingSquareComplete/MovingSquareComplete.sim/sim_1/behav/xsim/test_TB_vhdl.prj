@@ -1,9 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../MovingSquareComplete.ip_user_files/bd/test/ip/test_c_counter_binary_0_0/sim/test_c_counter_binary_0_0.vhd" \
-"../../../../MovingSquareComplete.ip_user_files/bd/test/sim/test.vhd" \
-"../../../../MovingSquareComplete.srcs/sources_1/bd/test/hdl/test_wrapper.vhd" \
-"../../../../MovingSquareComplete.srcs/sources_1/bd/test/hdl/test_TB.vhd" \
-
-# Do not sort compile order
-nosort
